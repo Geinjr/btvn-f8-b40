@@ -1,5 +1,6 @@
-import JNav from "../Components/Nav";
+
 import JHeader from "../components/Header";
+import JNav from "../components/Nav";
 import JSection1 from "../components/section1";
 import JSection2 from "../components/section2";
 import JSection3 from "../components/section3";
