@@ -1,12 +1,8 @@
 import { CgWebsite } from "react-icons/cg";
 
- export interface Logo {
-  icon: JSX.Element; // Định nghĩa kiểu cho icon
-  h5: string;
-  p: string;
-}
 
-export const logos: Logo[] = [
+
+export const logos = [
   {
     icon: <CgWebsite/>, // Sử dụng JSX để hiển thị icon
     h5: "Frontend Web Development",

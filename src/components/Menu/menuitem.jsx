@@ -1,10 +1,5 @@
-interface Item {
-  label: string;
-  icon: JSX.Element;
-}
-
 // MenuItem component
-const MenuItem = ({ item }: { item: Item }) => {
+const MenuItem = ({ item }) => {
   const { label, icon } = item;
 
   return (

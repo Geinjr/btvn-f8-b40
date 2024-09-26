@@ -3,7 +3,7 @@
 import Section1Container from './sectioncontainer';
 import { imgs } from './imgData'; // Import imgs từ imgData
 
-const JSection1: React.FC = () => {
+const JSection1 = () => {
   return (
     <section className="px-8 py-28"> 
       <div className="container mx-auto text-center">

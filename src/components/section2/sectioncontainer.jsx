@@ -1,10 +1,8 @@
-import { Logo } from "./imgData2";
+import { logos } from "./imgData2";
 
-interface Section2ContainerProps {
-  logos: Logo[]; 
-}
 
-const Section2Container: React.FC<Section2ContainerProps> = ({ logos }) => {
+
+const Section2Container = ({ logos }) => {
     return (
       <div className="container mx-auto grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
         {logos.map((logo, index) => (

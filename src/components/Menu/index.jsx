@@ -1,5 +1,5 @@
 
-import MenuItem from "./menuitem.tsx";
+import MenuItem from "./menuitem.jsx";
 
 
 const MenuitemContainer = ({ items }) => (

@@ -1,9 +1,6 @@
-export interface Img {
-    src: string;
-    alt: string;
-  }
+
   
-  export const imgs: Img[] = [
+  export const imgs = [
     {
       src: "https://demos.creative-tim.com/nextjs-tailwind-portfolio-page/logos/logo-coinbase.svg",
       alt: "Coinbase Logo"

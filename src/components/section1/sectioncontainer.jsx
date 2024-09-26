@@ -1,11 +1,8 @@
 // sectioncontainer.tsx
-import { Img } from './imgData'; // Import interface
+import { imgs } from './imgData'; // Import interface
 
-interface Section1ContainerProps {
-  imgs: Img[]; // Nhận props imgs
-}
 
-const Section1Container: React.FC<Section1ContainerProps> = ({ imgs }) => {
+const Section1Container = ({ imgs }) => {
   return (
     <div className="flex flex-wrap items-center justify-center gap-6">
       {imgs.map((img, index) => (

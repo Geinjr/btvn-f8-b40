@@ -1,9 +1,9 @@
 // Assuming MenuitemContainer is exported from "../Menu/index.tsx"
-import MenuitemContainer from "../Menu/index.tsx";
+import MenuitemContainer from "../Menu/index.jsx";
 import { RiPagesFill } from "react-icons/ri";
 import { IoHome } from "react-icons/io5";
 import { SiDocsdotrs } from "react-icons/si";
-import ButtonContainer from "../Button/index.tsx";
+import ButtonContainer from "../Button/index.jsx";
 // Define or import items array here
 const items = [
   {
