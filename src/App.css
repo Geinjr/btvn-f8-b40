@@ -1,0 +1,12 @@
+@tailwind base;
+
+@layer base {
+  body{
+    @apply font-roboto
+  }
+
+  h1 {
+    @apply text-5xl
+  }
+
+}
